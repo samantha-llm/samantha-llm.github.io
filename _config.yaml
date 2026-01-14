@@ -1,3 +1,8 @@
 title: Samantha Hartwell is a girl boss
-remote_theme: b2a3e8/jekyll-theme-console
-style: hacker
+
+remote_theme: broccolini/swiss
+style: black
+
+#remote_theme: b2a3e8/jekyll-theme-console
+#style: hacker
+#
