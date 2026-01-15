@@ -4,11 +4,5 @@ remote_theme: pages-themes/hacker@v0.2.0
 plugins:
 - jekyll-remote-theme # add this line to the plugins list if you already have one
 
-#show_downloads: true
-
-#remote_theme: broccolini/swiss
-#style: black
-
-#remote_theme: b2a3e8/jekyll-theme-console
-#style: hacker
-#
+github:
+  reposiory_url: https://github.com/criswell/samantha-llm
