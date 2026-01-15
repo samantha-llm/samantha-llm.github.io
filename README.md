@@ -91,7 +91,7 @@ to use semantic code retrival and editing on your codebase.
 
 If your preferred Agentic LLM tool is not supported out of the box, you can
 still use `samantha-llm` by manually launching your agentic LLM with the
-`samantha-llm/BOOTSTRAP_PROMPT.md` prompt.
+`.ai-cerebrum/BOOTSTRAP_PROMPT.md` prompt.
 
 Proceed with the quickstart steps above, but when you get to step 6, starting
 your agent, you will need to first link Samantha's cerebrum to your working
@@ -102,7 +102,7 @@ samantha-llm link
 ```
 
 Then, launch your agentic LLM tool manually, starting your session
-with the `samantha-llm/BOOTSTRAP_PROMPT.md` prompt.
+with the `.ai-cerebrum/BOOTSTRAP_PROMPT.md` prompt.
 
 ## Tips
 
