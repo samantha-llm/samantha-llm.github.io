@@ -66,7 +66,7 @@ phrase:
 Samantha will then create a new project/task in her memory and either begin
 working on it or ask you for more details.
 
-My advise is to request her to come up with a comprehensive plan for what she
+My advice is to request her to come up with a comprehensive plan for what she
 will be working on. Work with her to refine the plan until you are satisfied
 with it. Once you have a solid plan, Samantha can begin executing it.
 
@@ -101,7 +101,7 @@ directory:
 samantha-llm link
 ```
 
-Then, launch your agentic LLM tool manually from the, starting your session
+Then, launch your agentic LLM tool manually, starting your session
 with the `samantha-llm/BOOTSTRAP_PROMPT.md` prompt.
 
 ## Tips
@@ -143,7 +143,7 @@ samantha-llm start <agent_name>
 
 Where `<agent_name>` is the name of the agent you want to use for that session.
 
-## Memory processes and LLM Models
+### Memory processes and LLM Models
 
 Samantha can work with any LLM model supported by your agentic LLM tool.
 However, not all LLM models are created equal.
