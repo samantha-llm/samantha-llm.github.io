@@ -143,6 +143,27 @@ samantha-llm start <agent_name>
 
 Where `<agent_name>` is the name of the agent you want to use for that session.
 
+## Memory processes and LLM Models
+
+Samantha can work with any LLM model supported by your agentic LLM tool.
+However, not all LLM models are created equal.
+
+Samantha is instructed to always update her memories after key events, such as
+completing a task, making a significant change to a project, or just planning a
+project with you. However, some LLM models are better at following these types
+of instructions than others.
+
+As such, I recommend periodically prompting Samantha to review and update her
+memories to ensure they are accurate and up to date.
+
+```
+"Hi Samantha, please review and update your memories to ensure they are
+accurate and up to date."
+```
+
+I also stongly advise asking her to ensure her memories are up to date at the
+end of each work session.
+
 ## Maintenance
 
 COMING SOON
