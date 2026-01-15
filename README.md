@@ -143,6 +143,9 @@ samantha-llm start <agent_name>
 
 Where `<agent_name>` is the name of the agent you want to use for that session.
 
+If you have multiple LLM accounts with differing credits, you can easily switch
+to another agent and continue working if you run low on credits on the first.
+
 ### Memory processes and LLM Models
 
 Samantha can work with any LLM model supported by your agentic LLM tool.
