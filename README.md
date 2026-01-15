@@ -123,7 +123,7 @@ tool each time. `samantha-llm` will append the new agent configuration to the
 configuration file without overwriting existing agents.
 
 However, the last agent you set up will be the default agent used when you run
-the `samantha-llm run` command without specifying an agent. If you want to
+the `samantha-llm start` command without specifying an agent. If you want to
 change your preferred default agent, you can run the `samantha-llm setup`
 command with `--default` flag:
 
