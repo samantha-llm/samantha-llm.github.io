@@ -16,7 +16,7 @@ When you say phrases like:
   - "Use Ralph loop to implement [feature]"
 
 Samantha-LLM will:
-  
+
 1. Confirm task understanding:
     - Clarify the task scope
     - Define machine-verifiable success criteria (tests, linting, etc.)
@@ -37,6 +37,19 @@ Samantha-LLM will:
     - 🛑 User says "stop" or "exit Ralph mode"
     - ⚠ Critical blocker requiring user input
     - 🔄 Context limit reached (create memory, request fresh start)
+
+# What Makes Ralph Mode Special?
+
+NOT like typical AI coding:
+  - Not one-shot ("fix this file")
+  - Not exploratory ("look around and suggest changes")
+  - Not autonomous agent (user controls activation)
+
+IS iterative refinement:
+  - Work → test → evaluate → iterate until objective criteria met
+  - Fresh context rotation when needed (state in files/git)
+  - Persistent learning via guardrails
+  - Clear completion signals
 
 # Sources:
   - https://ghuntley.com/ralph/
