@@ -77,6 +77,15 @@ a new project/task, or ask her to switch between existing projects/tasks:
 "Let's switch gears for the moment and work on <project name>."
 ```
 
+### Samantha-LLM Modes
+
+Samantha LLM currently supports the following modes of operation. Please
+refer to the individual mode documentation for more details on how to use
+each mode.
+
+* [Ralph Mode](./modes/ralph_mode.md) - An iterative improvement framework for agentic
+  LLMs, enabling them to continuously refine their work through feedback loops.
+
 ### MCP Servers and Integrations
 
 Because Samantha LLM is just a persona and process for memory management, she
